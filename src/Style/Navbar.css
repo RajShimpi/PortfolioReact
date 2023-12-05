@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+header {
+  background-color: #bed4e900;
+  padding: 0.5rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  color: #56b2d6;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+header .navbar a {
+  font-size: 20px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  color: #050505e1;
+}
+
+header .navbar a.active,
+header .navbar a:hover {
+  color: #fff;
+  background: #56b2d6;
+}
